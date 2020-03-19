@@ -3,8 +3,8 @@ require 'spellchecker'
 describe Spellchecker do
     describe '#spellcheck' do
         it 'takes a string as an input' do
-            string = "Hello, world!"
-            expect(subject.spellcheck(string)).to eq "Hello, world!"
+            string = "Hello world"
+            expect(subject.spellcheck(string)).to eq "Hello world"
         end
     end
 
